@@ -1,0 +1,400 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Applies to entire tags*/
+
+body {
+    margin: 0px;
+    background-color: #000000;
+    font-family: "TASA Explorer", "sans-serif", Arial;
+    color: white;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    top: 0px;
+    position: sticky;
+    margin: 0px;
+    background-color: #005424;
+    display: flow-root;
+    border-bottom: 5px solid #ddad44;
+    z-index: 1000;
+}
+
+.divsmallpls div {
+    width: 20vw;
+}
+
+main {
+    margin: 0px;
+}
+
+/*Reusable Classes*/
+
+.width100 {
+    width: 100%;
+}
+
+.centerbox {
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+.coalitionimg {
+    width: 25%;
+    margin: 5vh;
+}
+
+.coalitionimgcoaltion {
+    width: 30vh;
+    margin: 5vh;
+}
+
+.bigger {
+    font-size: 3em;
+    margin-bottom: 3vh;
+}
+.evenlyspacebox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.textcenter {   
+    text-align: center;
+}
+
+/*Navbar*/
+
+.navcont {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    border-radius: 10px;
+    background-color: #ddad44;
+}
+
+/*Navbar end */
+
+.centerbox input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #d19617;
+    background-color: #e4c78a;
+    pointer-events: all;
+}
+
+.halfsizetextbox {
+    margin: 5px 10px;
+    width: 40%;
+}
+
+.readmore {
+    padding: 10px 10px;
+    border: 5px none white;
+    border-radius: 5px;
+}
+
+.readmore:hover {
+    background-color: yellow;
+    padding: 10px 15px;
+}
+
+.policies {
+    box-sizing: border-box;
+    border: 10px solid #005424;
+    border-radius: 5px;
+    width: 30em;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.policies div {
+    height: min-content;
+}
+
+.policies h2 {
+    margin: 5px;
+}
+
+#policyburger {
+    margin-right: 30px;
+    position: inherit;
+}
+
+
+#policyburger .burgers {
+    display: none;
+    background: #005424;
+    color: white;
+    border-radius: 0px;
+    margin-top: 0px;
+    translate: 0 80px;
+}
+#policyburger .burgers:last-child {
+    border-bottom: none;
+    border-radius: 0 0 5px 5px;
+
+}
+
+
+#policyburger:hover .burgers {
+    display: block;
+}
+
+
+.policies:hover {
+    scale: 1.05;
+}
+
+.bigpolicy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 5px solid #ddad44;
+    margin-top: 2vh;
+}
+
+
+#policyburger .burgers:hover {
+    background: #ddad44;
+    color: #005424;
+}
+/*Applies to IDs*/
+
+#headlogo{
+    margin-left: 2%;
+    width: 200px;
+    float: left;
+}
+
+#heroaccessory{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+}
+
+#herotext{
+    width: 30%;
+    z-index: 999;
+    translate: 0 -75vh;
+}
+
+#herotext h1{
+    color: #d19617; 
+    font-size: 5vh;
+    text-shadow: -5px -5px #1b4d1ffd;
+}
+
+
+#herodono{
+    float: left;
+    translate: -10vh -30vh;
+    border: 5px transparent red;
+    z-index: 999;
+    width: 30%;
+}
+
+#herodono div{
+    float: right;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#donobord {
+    border: 5px solid #005424;
+}
+
+#herodono h1{
+    text-align: center;
+    color: #d19617;
+    text-shadow: 5px 5px #005424;
+}
+
+#herodono button{
+    float: right;
+    padding: 10px 35px;
+    margin: 10px;
+    background-color: #d19617;
+    border-radius: 15px;
+}
+
+
+#herovideo {
+    display: block;
+    overflow: hidden;
+    height: 90vh;
+    width: 100%;
+    border-bottom: 5px solid #ddad44;
+}
+
+
+#herovideoin {
+    object-fit: cover;
+    filter:brightness(25%);
+    height: 100%;
+    width: 100%
+}
+
+
+#newsletterform {
+    border: 5px solid #ddad44;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#newsletterform button{
+    margin: 5px;
+}
+
+#emaillonger {
+    width: 80%;
+    margin: 10px;
+}
+
+
+#newsletterform h1 {
+    margin: 0px;
+    padding: 10px;
+}
+
+#newsletterform div {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+#newsletterform button {
+    height: 40px;
+    width:  150px;
+    border-radius: 5px;
+    border: 5px solid #099747;
+    font-weight: bold; 
+    cursor: pointer;
+}
+
+
+#vision {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 5px solid #ddad44;
+}
+
+#vision div {
+    width: 50vw;
+}
+
+#policybox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#pwidth {
+    width: 50vw;
+}
+
+
+footer {
+    background-color: #005424;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer section div {
+    width: 50vw;
+}
+
+#footlogo {
+    width: 100%;
+}
+
+#footfoot {
+    background-color: #0c3513;
+    padding: 15px;
+}
+
+#bigfoot {
+    display: flex;
+    float: left;
+    width: 20%;
+    align-items: center;
+}
+
+#bigfoot ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bigfoot ul li {
+    align-items: center;
+    padding: 0px 10px;
+}
+#bigfoot ul li a {
+    color: #ac8315;
+
+}
+#bigfoot ul li:hover a {
+    color: #ddad44;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+
+
+@media screen and (max-width:600px){
+    #policybox {
+        display: flex;
+    }
+}
