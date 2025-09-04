@@ -217,6 +217,8 @@ main {
 }
 
 #herotext h1{
+    animation-name: comedown;
+    animation-duration: 5s;
     color: #d19617; 
     font-size: 5vh;
     text-shadow: -5px -5px #1b4d1ffd;
@@ -391,6 +393,10 @@ footer section div {
     padding: 0px 10px;
 }
 
+@keyframes comedown {
+    from {height: 1em;}
+    to {height 5em;}
+}
 
 
 @media screen and (max-width:600px){
@@ -398,3 +404,4 @@ footer section div {
         display: flex;
     }
 }
+
