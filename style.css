@@ -142,6 +142,7 @@ main {
     padding: 10px;
     flex-wrap: wrap;
     text-align: center;
+    transition: scale 1s;
 }
 
 .policies div {
