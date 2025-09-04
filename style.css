@@ -395,7 +395,7 @@ footer section div {
 
 @keyframes comedown {
     from {height: 1em;}
-    to {height 5em;}
+    to {height: 5em;}
 }
 
 
@@ -404,4 +404,5 @@ footer section div {
         display: flex;
     }
 }
+
 
