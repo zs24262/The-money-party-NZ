@@ -394,8 +394,8 @@ footer section div {
 }
 
 @keyframes comedown{
-    from {font-size: 0em;}
-    to {font-size: 1em;}
+    from {font-size: 1vh;}
+    to {font-size: 5vh;}
 }
 
 
